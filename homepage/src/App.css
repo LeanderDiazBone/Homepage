@@ -1,0 +1,14 @@
+.App {
+
+}
+header{
+    width: 100%;
+    top: 0;
+    background-color: brown;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+}
