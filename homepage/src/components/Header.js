@@ -1,12 +1,12 @@
-import HeadLink from './HeadLink';
+import {Link} from "react-router-dom";
 
 const Header = () => {
     return (
         <header className = '.header'>
-           <HeadLink name = 'Home'/>
-           <HeadLink name = 'Projects'/>
-           <HeadLink name = 'Blog'/>
-           <HeadLink name = 'About'/>
+           <Link to="/" id = "headerlink">Home</Link>
+           <Link to="/projects" id = "headerlink">Projects</Link>
+           <Link to="/blog" id = "headerlink">Blog</Link>
+           <Link to="/about" id = "headerlink">About</Link>
         </header>
     )
 }
