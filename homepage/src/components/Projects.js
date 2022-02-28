@@ -1,6 +1,6 @@
 const Projects = () => {
     return (
-        <div>
+        <div className="pagecontent">
             <h1>Projects</h1>
             <p>Here I will show my Projects</p>
         </div>

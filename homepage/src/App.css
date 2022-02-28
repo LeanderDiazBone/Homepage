@@ -1,6 +1,10 @@
 header{
+    /*background-color: orange;*/
     width: 100%;
-    top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    height: 50px;
 }
 #headerlink{
     color: white;
@@ -8,6 +12,14 @@ header{
     margin-right: 50px;
     padding-top: 200px;
     font-size: 18px;
+}
+#iconlink{
+    padding-top: 10px;
+    width: 30px;
+}
+.pagecontent{
+    margin-left: 15%;
+    margin-right: 15%;
 }
 #footerlink{
     color: white;
@@ -17,8 +29,6 @@ header{
     font-size: 14px;
 }
 footer{
-    position: absolute;
-    bottom: 0;
     width: 100%;
     text-align: center;
 }
